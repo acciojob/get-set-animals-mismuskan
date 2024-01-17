@@ -4,8 +4,9 @@ class Animal {
 		this.species=species;
 	}
 	 makeSound(){
-		console.log(" ${this.species} make sound");
-	}
+		// console.log(" ${this.species} make sound");
+  console.log(`${this.species} makes sound`);
+	 }
 	
 }
 
