@@ -3,8 +3,8 @@ class Animal {
 	{
 		this.species=species;
 	}
-	get makeSound(){
-		console.log("animals make sound");
+	 makeSound(){
+		console.log(" ${this.species} make sound");
 	}
 	
 }
