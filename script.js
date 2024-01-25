@@ -4,10 +4,18 @@ class Animal {
 		this.species=species;
 	}
 	 makeSound(){
-		// console.log(" ${this.species} make sound");
   console.log(`${this.species} makes sound`);
 	 }
 	
+}
+
+class Cat extends Animal {
+	 constructor(species ) {
+    super(species);
+  }
+	purr(){
+		console.log("purr");
+	}
 }
 
 class Dog extends Animal {
@@ -22,14 +30,6 @@ class Dog extends Animal {
 	
 }
 
-class Cat extends Animal {
-	 constructor(species) {
-    super(species);
-  }
-	purr(){
-		console.log("purr");
-	}
-}
 
 // Do not change the code below this line
 window.Animal = Animal;
